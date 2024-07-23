@@ -1,0 +1,52 @@
+<style>
+        /* CSS-Stile können hier eingefügt werden */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+        }
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+        }
+nav {
+    background-color: #666;
+    padding: 10px;
+    text-align: center;
+        }
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+        }
+/* Stile für die Hauptinhaltsbereich */
+main {
+    margin: 0 auto; /* Zentriert den Hauptinhalt */
+    max-width: 800px; /* Begrenzt die Breite des Hauptinhalts */
+}
+
+/* Stile für den Abschnitt mit den aktuellen Artikeln */
+section {
+    background-color: #ffffff; /* Hintergrundfarbe für den Abschnitt */
+    padding: 20px; /* Innenabstand für den Abschnitt */
+    margin-bottom: 10px; /* Unterer Außenabstand für den Abschnitt */
+    margin-top: 10px;
+    border-radius: 10px; /* Runde Ecken für den Abschnitt */
+}
+.artikel_archiv{
+    background-color: rgb(228, 228, 228);
+}
+footer {
+    text-align: center;
+}
+.motto {
+    text-align: center;
+    background-color: rgb(255, 234, 0);
+    color: rgb(81, 80, 80);
+    width: auto;
+    margin: 0;
+    padding: 20px;
+}
+    </style>
