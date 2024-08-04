@@ -3,34 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schreibtischdrehstuhl</title>
+    <title>Telefonnummer Eingabe</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header>
-        <h1>Schreibtischdrehstuhl</h1>    
-    </header>
-    <nav>
-        <a href="index.html">Startseite</a>
-        <a href="grundidee.html">Grundidee</a>
-        <a href="dieredaktion.html">Die Redaktion</a>
-        <a href="Archiv.html">Archiv</a>
-        <a href="Abonnement.html">Abonnement</a> 
-    
-    </nav>
+<header>
+    <h1>Schreibtischdrehstuhl</h1>
+</header>
+
+<nav>
+    <a href="index.html">Startseite</a>
+    <a href="grundidee.html">Grundidee</a>
+    <a href="dieredaktion.html">Die Redaktion</a>
+    <a href="Archiv.html">Archiv</a>
+    <a href="Abonnement.html">Abonnement</a>
+</nav>
 
 <main>
     <section>
-        <h2>Abonnement</h2>
+        <h2>Telefonnummer Eingabe</h2>
+        <form id="phone-form" action="https://formspree.io/f/{your-form-id}" method="POST">
+            <label for="phone">Telefonnummer:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <button type="submit">Absenden</button>
+        </form>
     </section>
 </main>
+
 <footer>
     <p class="impressum">
         <a href="Impressum.html">Impressum & Kontakt</a>
     </p>
     <p>&copy; 2024 Schreibtischdrehstuhl</p>
-    </footer> 
+</footer>
 
 </body>
 </html>
+
